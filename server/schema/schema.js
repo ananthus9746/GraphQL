@@ -33,7 +33,6 @@ name:'RootQueryType',
 fields:{
 
     //PROJECT//
-
     projects:{
         type: new GraphQLList(ProjectType),
         resolve(parent,args){
